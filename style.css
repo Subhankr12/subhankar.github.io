@@ -396,6 +396,26 @@ button {
   #my-image {
     margin-top: 0vh;
   }
+  .timeline-box:nth-child(n) {
+    left: 30%;
+  }
+  .timeline img {
+    width: 20%;
+    height: 10%;
+  }
+  .timeline-divider {
+    left: 10%;
+  }
+  .timeline-box:nth-child(2n + 1)::after {
+    content: "";
+    top: 32%;
+    left: -58%;
+  }
+  .timeline-box:nth-child(2n)::after {
+    content: "";
+    top: 32%;
+    left: -58%;
+  }
   .contact-form aside {
     margin-top: 10rem;
     width: 100%;
