@@ -332,28 +332,24 @@ section:nth-child(2n) {
 
 .contact-form {
   display: flex;
-  flex-direction: row;
-}
-.contact-form form {
-  width: 40%;
-  margin-left: 8rem;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: space-between;
 }
 
 input,
 textarea {
-  margin-left: 10rem;
   border-style: none;
   outline: none;
   background: transparent;
   font-size: 1rem;
   color: white;
   border-bottom: 2px solid white;
-  width: 20vw;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
 button {
-  margin-left: 17rem;
   border-style: none;
   outline: none;
   background: transparent;
@@ -369,7 +365,7 @@ button {
 }
 
 .contact-form aside {
-  width: 30%;
+  width: 50%;
 }
 .contact-form aside h3 {
   margin: 0;
@@ -394,4 +390,17 @@ button {
 
 .social-links li a i:hover {
   box-shadow: 0px 0px 6px 2px white;
+}
+
+@media only screen and (max-width: 400px) {
+  #my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -5vh;
+  }
+  .contact-form aside {
+    margin-top: 5rem;
+    width: 100%;
+  }
 }
