@@ -394,13 +394,10 @@ button {
 
 @media only screen and (max-width: 400px) {
   #my-image {
-    height: 12rem;
-    width: 12rem;
-    margin: auto;
-    margin-top: -5vh;
+    margin-top: 0vh;
   }
   .contact-form aside {
-    margin-top: 5rem;
+    margin-top: 10rem;
     width: 100%;
   }
 }
