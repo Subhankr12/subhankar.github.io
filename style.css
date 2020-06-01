@@ -393,31 +393,62 @@ button {
 }
 
 @media only screen and (max-width: 400px) {
+  #my-name {
+    font-size: 2rem;
+  }
+  .social-icons li a i {
+    padding: 14px;
+  }
+  .social-links li a i {
+    padding: 14px;
+  }
   #my-image {
-    margin-top: 0vh;
+    margin-top: -15vh;
+  }
+  .section-heading span {
+    font-size: 30px;
+  }
+  .timeline {
+    width: 100%;
   }
   .timeline-box:nth-child(n) {
-    left: 30%;
+    left: 20%;
   }
-  .timeline img {
+  .timeline-header img {
+    position: relative;
     width: 20%;
-    height: 10%;
+    height: 20%;
+  }
+  .timeline-header h2 {
+    font-size: 1.2rem;
+  }
+  .timeline-header p:nth-child(4) {
+    font-size: 0.9rem;
+  }
+  .timeline-box {
+    width: 65%;
+    margin-bottom: 5rem;
+  }
+  .ta-l-s {
+    text-align: left;
   }
   .timeline-divider {
+    height: 100%;
     left: 10%;
+    top: 0;
   }
   .timeline-box:nth-child(2n + 1)::after {
     content: "";
-    top: 32%;
-    left: -58%;
+    top: 5%;
+    left: -19.8%;
   }
   .timeline-box:nth-child(2n)::after {
     content: "";
-    top: 32%;
-    left: -58%;
+    top: 5%;
+    left: -19.8%;
   }
   .contact-form aside {
-    margin-top: 10rem;
+    margin-top: 5rem;
     width: 100%;
   }
 }
